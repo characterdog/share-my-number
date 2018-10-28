@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/tab_private">
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/name"
+            android:inputType="textPersonName"
+            android:summary="%s"
+            android:icon="@drawable/ic_person_teal_24dp"
+            android:key="name_private" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/phone_number"
+            android:inputType="phone"
+            android:summary="%s"
+            android:icon="@drawable/ic_smartphone_teal_24dp"
+            android:key="phoneNumber_private" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/email"
+            android:inputType="textEmailAddress"
+            android:summary="%s"
+            android:icon="@drawable/ic_email_teal_24dp"
+            android:key="email_private" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/address"
+            android:inputType="textPostalAddress"
+            android:summary="%s"
+            android:icon="@drawable/ic_location_on_teal_24dp"
+            android:key="address_private" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/company"
+            android:inputType="text"
+            android:summary="%s"
+            android:icon="@drawable/ic_business_teal_24dp"
+            android:key="company_private" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/title"
+            android:inputType="text"
+            android:summary="%s"
+            android:icon="@drawable/ic_assignment_ind_teal_24dp"
+            android:key="title_private" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/website"
+            android:inputType="textUri"
+            android:summary="%s"
+            android:icon="@drawable/ic_language_teal_24dp"
+            android:key="website_private" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/tab_company">
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/name"
+            android:inputType="textPersonName"
+            android:summary="%s"
+            android:icon="@drawable/ic_person_teal_24dp"
+            android:key="name_company" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/phone_number"
+            android:inputType="phone"
+            android:summary="%s"
+            android:icon="@drawable/ic_smartphone_teal_24dp"
+            android:key="phoneNumber_company" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/email"
+            android:inputType="textEmailAddress"
+            android:summary="%s"
+            android:icon="@drawable/ic_email_teal_24dp"
+            android:key="email_company" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/address"
+            android:inputType="textPostalAddress"
+            android:summary="%s"
+            android:icon="@drawable/ic_location_on_teal_24dp"
+            android:key="address_company" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/company"
+            android:inputType="text"
+            android:summary="%s"
+            android:icon="@drawable/ic_business_teal_24dp"
+            android:key="company_company" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/title"
+            android:inputType="text"
+            android:summary="%s"
+            android:icon="@drawable/ic_assignment_ind_teal_24dp"
+            android:key="title_company" />
+        <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
+            android:title="@string/website"
+            android:inputType="textUri"
+            android:summary="%s"
+            android:icon="@drawable/ic_language_teal_24dp"
+            android:key="website_company" />
+    </PreferenceCategory>
+</PreferenceScreen>
