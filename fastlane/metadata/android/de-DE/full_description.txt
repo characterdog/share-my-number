@@ -1,12 +1,12 @@
-This app displays a business card and a QR code. Other people can add your number to their contact app by scanning the QR code.
+Diese App zeigt eine Visitenkarte und einen QR-Code an. Andere Personen können Deine Nummer zu ihrer Kontakt-App hinzufügen, indem sie den QR-Code scannen.
 
-It's possible to configure two independent profiles: private and company.
+Es ist möglich zwei verschiedene Profile zu konfigurieren: Privat und Geschäftlich.
 
-The following information can be shared:
+Die folgenden Informationen können geteilt werden:
 • Name
-• Phone number
-• E-mail
-• Address
-• Company
-• Title
-• Website
+• Telefonnummer
+• E-Mail
+• Adresse
+• Firma
+• Titel
+• Webseite
