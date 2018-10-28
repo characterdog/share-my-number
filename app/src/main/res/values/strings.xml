@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Share my number</string>
+    <string name="tab_private">Private</string>
+    <string name="tab_company">Company</string>
+    <string name="action_settings">Settings</string>
+    <string name="qr_code">QR code</string>
+    <string name="no_name">No name provided</string>
+    <string name="open_settings">No information set. Click here to open settings.</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">E-mail</string>
+    <string name="address">Address</string>
+    <string name="company">Company</string>
+    <string name="title">Title</string>
+    <string name="website">Website</string>
+</resources>
