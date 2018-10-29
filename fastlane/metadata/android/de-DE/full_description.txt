@@ -1,0 +1,12 @@
+Diese App zeigt eine Visitenkarte und einen QR-Code an. Andere Personen können Deine Nummer zu ihrer Kontakt-App hinzufügen, indem sie den QR-Code scannen.
+
+Es ist möglich zwei verschiedene Profile zu konfigurieren: Privat und Geschäftlich.
+
+Die folgenden Informationen können geteilt werden:
+• Name
+• Telefonnummer
+• E-Mail
+• Adresse
+• Firma
+• Titel
+• Webseite
