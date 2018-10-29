@@ -5,7 +5,7 @@
     <string name="action_settings">Edit contact information</string>
     <string name="qr_code">QR code</string>
     <string name="no_name">No name provided</string>
-    <string name="open_settings">Click here to add your contact information</string>
+    <string name="open_settings">Tap to add your contact information</string>
     <string name="name">Name</string>
     <string name="phone_number">Phone number</string>
     <string name="email">E-mail</string>
@@ -13,4 +13,19 @@
     <string name="company">Company</string>
     <string name="title">Title</string>
     <string name="website">Website</string>
+
+    <string name="screenshots_private_name" translatable="false">John</string>
+    <string name="screenshots_private_email" translatable="false">john@example.com</string>
+    <string name="screenshots_private_address" translatable="false">Street 123 NY</string>
+    <string name="screenshots_private_title" translatable="false">Dad</string>
+    <string name="screenshots_private_company" translatable="false">My family</string>
+    <string name="screenshots_private_phone" translatable="false">555-555-5555</string>
+    <string name="screenshots_private_website" translatable="false">johns-family.example.com</string>
+    <string name="screenshots_company_name" translatable="false">John Doe</string>
+    <string name="screenshots_company_email" translatable="false">john.doe@example.com</string>
+    <string name="screenshots_company_address" translatable="false" />
+    <string name="screenshots_company_title" translatable="false">CEO</string>
+    <string name="screenshots_company_company" translatable="false">Doe Corp.</string>
+    <string name="screenshots_company_phone" translatable="false">555-555-5555</string>
+    <string name="screenshots_company_website" translatable="false">www.example.com</string>
 </resources>
