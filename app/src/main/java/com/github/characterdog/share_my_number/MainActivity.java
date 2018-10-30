@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.Point;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.CallSuper;
@@ -14,6 +15,7 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -186,6 +188,8 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
 
+            qrCode.setImageDrawable(getResources().getDrawable(R.drawable.ic_hourglass_full_teal_24dp));
+
             if (TextUtils.isEmpty(name)) {
                 name = getString(R.string.no_name);
             }
@@ -213,10 +217,7 @@ public class MainActivity extends AppCompatActivity {
             setTextToTextViewOrHide(phoneNumber, R.id.phoneNumber, view);
             setTextToTextViewOrHide(website, R.id.website, view);
 
-            Bitmap myBitmap = QRCode.from(vCard).withColor(0xFF000000, 0x00000000)
-                    .withSize(qrSize, qrSize).withHint(EncodeHintType.CHARACTER_SET, "UTF-8")
-                    .bitmap();
-            qrCode.setImageBitmap(myBitmap);
+            new SetQrCodeTask().execute(new SetQrCodeTaskBundle(vCard, qrSize));
         }
 
         private void setTextToTextViewOrHide(String value, @IdRes int id, View view) {
@@ -225,6 +226,46 @@ public class MainActivity extends AppCompatActivity {
                 textView.setVisibility(View.GONE);
             } else {
                 textView.setText(value);
+            }
+        }
+
+        private class SetQrCodeTaskBundle {
+            private VCard mVCard;
+            private int mQrSize;
+
+            SetQrCodeTaskBundle(VCard vCard, int qrSize) {
+                mVCard = vCard;
+                mQrSize = qrSize;
+            }
+
+            VCard getVCard() {
+                return mVCard;
+            }
+
+            int getQrSize() {
+                return mQrSize;
+            }
+        }
+
+        private class SetQrCodeTask extends AsyncTask<SetQrCodeTaskBundle, Void, Bitmap> {
+            private final String TAG = SetQrCodeTask.class.getSimpleName();
+
+            @Override
+            protected Bitmap doInBackground(SetQrCodeTaskBundle... setQrCodeTaskBundles) {
+                Log.d(TAG, "Generate QR code");
+                return QRCode
+                        .from(setQrCodeTaskBundles[0].getVCard())
+                        .withColor(0xFF000000, 0x00000000)
+                        .withSize(setQrCodeTaskBundles[0].getQrSize(), setQrCodeTaskBundles[0].getQrSize())
+                        .withHint(EncodeHintType.CHARACTER_SET, "UTF-8")
+                        .bitmap();
+            }
+
+            @Override
+            protected void onPostExecute(Bitmap bitmap) {
+                Log.d(TAG, "Set QR code");
+                ImageView qrCode = getView().findViewById(R.id.qr);
+                qrCode.setImageBitmap(bitmap);
             }
         }
     }
