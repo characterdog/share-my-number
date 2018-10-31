@@ -1,11 +1,14 @@
 files:
   - source: /app/src/main/res/values/strings.xml
-    translation: /app/src/main/res/values-%two_letters_code%/strings.xml
+    translation: /app/src/main/res/values-%osx_locale%/strings.xml
     languages_mapping:
-      two_letters_code:
+      osx_locale:
+        en-GB: en-rGB
+        en-US: en-rUS
         pt-BR: pt-rBR
         es-US: es-rUS
         zh-CN: zh-rCN
+        zh-TW: zh-rTW
         he: iw
   - source: /fastlane/metadata/android/en-US/*_description.txt
     translation: /fastlane/metadata/android/%locale%/%original_file_name%
