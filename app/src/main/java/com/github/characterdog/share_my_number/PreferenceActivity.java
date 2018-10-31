@@ -2,6 +2,7 @@ package com.github.characterdog.share_my_number;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AppCompatDelegate;
 
 public class PreferenceActivity extends AppCompatPreferenceActivity {
     public final static String PREF_PRIVATE_NAME = "name_private";
@@ -27,6 +28,7 @@ public class PreferenceActivity extends AppCompatPreferenceActivity {
         if (actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true);
         }
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         addPreferencesFromResource(R.xml.preferences);
     }
 }
