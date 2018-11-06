@@ -44,7 +44,7 @@
             android:icon="@drawable/ic_language_teal_24dp"
             android:key="website_private" />
     </PreferenceCategory>
-    <PreferenceCategory android:title="@string/tab_company">
+    <PreferenceCategory android:title="@string/tab_work">
         <com.github.characterdog.share_my_number.SummaryShowingEditTextPreference
             android:title="@string/name"
             android:inputType="textPersonName"

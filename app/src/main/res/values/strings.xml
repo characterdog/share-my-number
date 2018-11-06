@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Share my number</string>
     <string name="tab_private">Private</string>
-    <string name="tab_company">Company</string>
+    <string name="tab_work">Work</string>
     <string name="action_settings">Edit contact information</string>
     <string name="qr_code">QR code</string>
     <string name="no_name">No name provided</string>
