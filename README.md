@@ -14,7 +14,7 @@ The following information can be shared:
 * Title
 * Website
 
-[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/app/com.github.characterdog.share-my-number)
+[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/app/com.github.characterdog.share_my_number)
 
 <img src="fastlane/metadata/android/en-US/images/icon.png" width="150px">
 
