@@ -1,12 +1,12 @@
-This app displays a business card and a QR code. Other people can add your number to their contact app by scanning the QR code.
+Den här appen visar ett visitkort och en QR-kod. Andra kan lägga till ditt nummer till deras kontakt-app genom att skanna QR-koden.
 
-It's possible to configure two independent profiles: private and company.
+Det är möjligt att konfigurera två oberoende profiler: privat och företag.
 
-The following information can be shared:
-• Name
-• Phone number
-• E-mail
-• Address
-• Company
-• Title
-• Website
+Följande information kan delas:
+• Namn
+• Telefonnummer
+• E-post
+• Adress
+• Företag
+• Titel
+• Webbplats

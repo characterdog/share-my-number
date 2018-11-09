@@ -1,12 +1,12 @@
-This app displays a business card and a QR code. Other people can add your number to their contact app by scanning the QR code.
+Tato aplikace zobrazuje vizitku a QR kód. Ostatní lidé si mohou sejmutím QR kódu přidat Vaše číslo do svého seznamu kontaktů.
 
-It's possible to configure two independent profiles: private and company.
+Lze nakonfigurovat dvě nezávislé profily: soukromý a firemní.
 
-The following information can be shared:
-• Name
-• Phone number
+Následující informace mohou být sdíleny:
+• Jméno
+• Telefonní číslo
 • E-mail
-• Address
-• Company
-• Title
-• Website
+• Adresa
+• Firma
+• Titulek
+• Webová stránka
