@@ -170,24 +170,15 @@ public class MainActivity extends AppCompatActivity {
                 website = sharedPreferences.getString(PREF_COMPANY_WEBSITE, null);
             }
 
-            ImageView qrCode = view.findViewById(R.id.qr);
             if (TextUtils.isEmpty(name) && TextUtils.isEmpty(email) && TextUtils.isEmpty(address)
                     && TextUtils.isEmpty(title) && TextUtils.isEmpty(company)
                     && TextUtils.isEmpty(phoneNumber) && TextUtils.isEmpty(website)) {
-                qrCode.setVisibility(View.GONE);
-                view.findViewById(R.id.cardView).setVisibility(View.GONE);
-                Button openSettingsButton = view.findViewById(R.id.open_settings);
-                openSettingsButton.setVisibility(View.VISIBLE);
-                openSettingsButton.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent i = new Intent(getContext(), PreferenceActivity.class);
-                        startActivity(i);
-                    }
-                });
+                setUiNoInformation(true, view);
                 return;
             }
+            setUiNoInformation(false, view);
 
+            ImageView qrCode = view.findViewById(R.id.qr);
             qrCode.setImageDrawable(getResources().getDrawable(R.drawable.ic_hourglass_full_teal_24dp));
 
             if (TextUtils.isEmpty(name)) {
@@ -218,6 +209,24 @@ public class MainActivity extends AppCompatActivity {
             setTextToTextViewOrHide(website, R.id.website, view);
 
             new SetQrCodeTask().execute(new SetQrCodeTaskBundle(vCard, qrSize));
+        }
+
+        private void setUiNoInformation(boolean noInformation, View view) {
+            view.findViewById(R.id.qr).setVisibility(noInformation ? View.GONE : View.VISIBLE);
+            view.findViewById(R.id.cardView).setVisibility(noInformation ? View.GONE : View.VISIBLE);
+            Button openSettingsButton = view.findViewById(R.id.open_settings);
+            openSettingsButton.setVisibility(noInformation ? View.VISIBLE : View.GONE);
+            if (noInformation) {
+                openSettingsButton.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent i = new Intent(getContext(), PreferenceActivity.class);
+                        startActivity(i);
+                    }
+                });
+            } else {
+                openSettingsButton.setOnClickListener(null);
+            }
         }
 
         private void setTextToTextViewOrHide(String value, @IdRes int id, View view) {
