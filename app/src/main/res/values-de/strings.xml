@@ -3,6 +3,7 @@
 <resources>
     <string name="app_name">Teile meine Nummer</string>
     <string name="tab_private">Privat</string>
+    <string name="tab_work">Geschäftlich</string>
     <string name="action_settings">Kontaktinformationen bearbeiten</string>
     <string name="qr_code">QR-Code</string>
     <string name="no_name">Kein Name angegeben</string>
