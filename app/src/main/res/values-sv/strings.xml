@@ -3,6 +3,7 @@
 <resources>
     <string name="app_name">Dela mitt nummer</string>
     <string name="tab_private">Privat</string>
+    <string name="tab_work">Arbete</string>
     <string name="action_settings">Ändra kontaktuppgifter</string>
     <string name="qr_code">QR-kod</string>
     <string name="no_name">Inget namn lämnat</string>
