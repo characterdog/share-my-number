@@ -1,6 +1,7 @@
 package com.github.characterdog.share_my_number;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatDelegate;
 
@@ -30,5 +31,16 @@ public class PreferenceActivity extends AppCompatPreferenceActivity {
         }
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         addPreferencesFromResource(R.xml.preferences);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                onBackPressed();
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 }
