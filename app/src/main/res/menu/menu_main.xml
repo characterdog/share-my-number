@@ -8,4 +8,14 @@
         android:title="@string/action_settings"
         android:icon="@drawable/ic_edit_white_24dp"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="101"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_privacy"
+        android:orderInCategory="102"
+        android:title="@string/privacy_policy"
+        app:showAsAction="never" />
 </menu>

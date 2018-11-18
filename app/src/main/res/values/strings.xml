@@ -1,8 +1,9 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name">Share my number</string>
     <string name="tab_private">Private</string>
     <string name="tab_work">Work</string>
     <string name="action_settings">Edit contact information</string>
+    <string name="action_about">About</string>
     <string name="qr_code">QR code</string>
     <string name="no_name">No name provided</string>
     <string name="open_settings">Tap to add your contact information</string>
@@ -13,6 +14,31 @@
     <string name="company">Company</string>
     <string name="title">Title</string>
     <string name="website">Website</string>
+
+    <string name="author">Author</string>
+    <string name="help_translating_this_app">Help translating this app!</string>
+    <string name="rate_in_play_store">Rate in Play Store</string>
+    <string name="share_with_friends">Share with your friends</string>
+    <string name="check_out">Hey, check out this app: %s\n%s</string>
+    <string name="legal">Legal</string>
+    <string name="license">License</string>
+    <string name="privacy_policy">Privacy policy</string>
+
+    <string name="privacy_policy_content"><![CDATA[
+    1. If you install this app via Google Play, Google will collect information about your device
+    and show me them in the Google Play console. In case of a crash some information will be
+    uploaded to Google. I have no control over this. Please refer to their privacy policy for details.\n
+    2. If you install this app via F-Droid, I cannot see any usage data. Please refer to their privacy policy for details.\n
+    3. If running a device with Auto Backup by Google, Google will upload all information to Google Drive: https://developer.android.com/guide/topics/data/autobackup\n
+    4. You can mail me at characterdog.apps@gmail.com. In this case I and Google will know your
+    e-mail address and everything your write in your mail. I will delete your mail after your issue
+    has been solved or your question has been answered. Google may have a backup of the mail and not
+    delete it when I do so.\n
+    5. If you click a link on the About screen the websites\' operator may collect information about
+    your device, but not about your contact information.\n
+    6. I will not share the information with anybody else.
+    ]]></string>
+
 
     <string name="screenshots_private_name" translatable="false">John</string>
     <string name="screenshots_private_email" translatable="false">john@example.com</string>

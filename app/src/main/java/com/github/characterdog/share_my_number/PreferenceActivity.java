@@ -1,8 +1,8 @@
 package com.github.characterdog.share_my_number;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatDelegate;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatDelegate;
 
 public class PreferenceActivity extends AppCompatPreferenceActivity {
     public final static String PREF_PRIVATE_NAME = "name_private";
