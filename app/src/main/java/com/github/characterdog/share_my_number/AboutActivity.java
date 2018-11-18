@@ -86,6 +86,13 @@ public class AboutActivity extends AppCompatActivity {
                     .text(activityContext.getString(R.string.author))
                     .subText("CharacterDog")
                     .icon(R.drawable.ic_person_teal_24dp)
+                    .setOnClickAction(new MaterialAboutItemOnClickAction() {
+                        @Override
+                        public void onClick() {
+                            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/characterdog"));
+                            startActivity(intent);
+                        }
+                    })
                     .build());
             firstCard.addItem(new MaterialAboutActionItem.Builder()
                     .text(activityContext.getString(R.string.help_translating_this_app))
