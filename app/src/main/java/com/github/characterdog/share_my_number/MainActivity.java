@@ -8,11 +8,8 @@ import android.graphics.Point;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import androidx.annotation.CallSuper;
 import androidx.annotation.IdRes;
 
-import com.danielstone.materialaboutlibrary.MaterialAboutFragment;
-import com.danielstone.materialaboutlibrary.model.MaterialAboutList;
 import com.google.android.material.tabs.TabLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
@@ -45,6 +42,10 @@ import static com.github.characterdog.share_my_number.PreferenceActivity.*;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
+
+    public static final int TAB_PRIVATE = 1;
+    public static final int TAB_WORK = 2;
+    public static final int TAB_OTHER = 3;
 
     /**
      * The {@link PagerAdapter} that will provide
@@ -81,6 +82,22 @@ public class MainActivity extends AppCompatActivity {
 
         mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.addOnTabSelectedListener(new TabLayout.ViewPagerOnTabSelectedListener(mViewPager));
+
+        PreferenceManager.setDefaultValues(this, R.xml.preferences, false);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
+        try {
+            tabLayout.getTabAt(TAB_PRIVATE - 1).setText(sharedPreferences.getString(PREF_PRIVATE_PROFILE, getString(R.string.tab_private)));
+            tabLayout.getTabAt(TAB_WORK - 1).setText(sharedPreferences.getString(PREF_COMPANY_PROFILE, getString(R.string.tab_work)));
+            tabLayout.getTabAt(TAB_OTHER - 1).setText(sharedPreferences.getString(PREF_OTHER_PROFILE, getString(R.string.tab_other)));
+        } catch (Exception e) {
+            Log.e(TAG, "Error setting tab title", e);
+        }
     }
 
 
@@ -123,8 +140,7 @@ public class MainActivity extends AppCompatActivity {
          */
         private static final String TAG = ContactInfoFragment.class.getSimpleName();
         private static final String ARG_SECTION_NUMBER = "section_number";
-        public static final int TAB_PRIVATE = 1;
-        public static final int TAB_CORP = 2;
+
 
         public ContactInfoFragment() {
         }
@@ -174,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
                 company = sharedPreferences.getString(PREF_PRIVATE_COMPANY, null);
                 phoneNumber = sharedPreferences.getString(PREF_PRIVATE_PHONE, null);
                 website = sharedPreferences.getString(PREF_PRIVATE_WEBSITE, null);
-            } else if (tab == TAB_CORP) {
+            } else if (tab == TAB_WORK) {
                 name = sharedPreferences.getString(PREF_COMPANY_NAME, null);
                 email = sharedPreferences.getString(PREF_COMPANY_EMAIL, null);
                 address = sharedPreferences.getString(PREF_COMPANY_ADDRESS, null);
@@ -295,6 +311,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             protected void onPostExecute(Bitmap bitmap) {
                 Log.d(TAG, "Set QR code");
+                View view = getView();
+                if (view == null) {
+                    Log.e(TAG, "View is null");
+                    return;
+                }
                 ImageView qrCode = getView().findViewById(R.id.qr);
                 qrCode.setImageBitmap(bitmap);
             }

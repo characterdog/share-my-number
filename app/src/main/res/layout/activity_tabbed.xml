@@ -31,16 +31,19 @@
             android:layout_height="wrap_content">
 
             <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_private"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tab_private" />
 
             <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_work"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tab_work" />
 
             <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_other"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/tab_other" />
