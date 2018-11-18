@@ -1,6 +1,6 @@
 Diese App zeigt eine Visitenkarte und einen QR-Code an. Andere Personen können Deine Nummer zu ihrer Kontakt-App hinzufügen, indem sie den QR-Code scannen.
 
-It's possible to configure three independent profiles: private, company and other. Feel free to change the names in the settings.
+Es ist möglich drei verschiedene Profile zu konfigurieren: Privat, Geschäftlich und Sonstiges. Zögern Sie nicht, die Namen in den Einstellungen zu ändern.
 
 Die folgenden Informationen können geteilt werden:
 • Name
