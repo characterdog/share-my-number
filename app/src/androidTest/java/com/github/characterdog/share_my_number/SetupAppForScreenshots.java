@@ -53,7 +53,7 @@ public class SetupAppForScreenshots {
 
     @Test
     public void mainActivityTest() {
-        ViewInteraction tabView = onView(withContentDescription("Company"));
+        ViewInteraction tabView = onView(withContentDescription("Work"));
         tabView.perform(click());
 
         ViewInteraction actionMenuItemView = onView(withId(R.id.action_settings));
