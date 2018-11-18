@@ -165,7 +165,8 @@ public class MainActivity extends AppCompatActivity {
             String company;
             String phoneNumber;
             String website;
-            if (getArguments().getInt(ARG_SECTION_NUMBER) == TAB_PRIVATE) {
+            int tab = getArguments() != null ? getArguments().getInt(ARG_SECTION_NUMBER, TAB_PRIVATE) : TAB_PRIVATE;
+            if (tab == TAB_PRIVATE) {
                 name = sharedPreferences.getString(PREF_PRIVATE_NAME, null);
                 email = sharedPreferences.getString(PREF_PRIVATE_EMAIL, null);
                 address = sharedPreferences.getString(PREF_PRIVATE_ADDRESS, null);
@@ -173,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
                 company = sharedPreferences.getString(PREF_PRIVATE_COMPANY, null);
                 phoneNumber = sharedPreferences.getString(PREF_PRIVATE_PHONE, null);
                 website = sharedPreferences.getString(PREF_PRIVATE_WEBSITE, null);
-            } else {
+            } else if (tab == TAB_CORP) {
                 name = sharedPreferences.getString(PREF_COMPANY_NAME, null);
                 email = sharedPreferences.getString(PREF_COMPANY_EMAIL, null);
                 address = sharedPreferences.getString(PREF_COMPANY_ADDRESS, null);
@@ -181,6 +182,14 @@ public class MainActivity extends AppCompatActivity {
                 company = sharedPreferences.getString(PREF_COMPANY_COMPANY, null);
                 phoneNumber = sharedPreferences.getString(PREF_COMPANY_PHONE, null);
                 website = sharedPreferences.getString(PREF_COMPANY_WEBSITE, null);
+            } else {
+                name = sharedPreferences.getString(PREF_OTHER_NAME, null);
+                email = sharedPreferences.getString(PREF_OTHER_EMAIL, null);
+                address = sharedPreferences.getString(PREF_OTHER_ADDRESS, null);
+                title = sharedPreferences.getString(PREF_OTHER_TITLE, null);
+                company = sharedPreferences.getString(PREF_OTHER_COMPANY, null);
+                phoneNumber = sharedPreferences.getString(PREF_OTHER_PHONE, null);
+                website = sharedPreferences.getString(PREF_OTHER_WEBSITE, null);
             }
 
             if (TextUtils.isEmpty(name) && TextUtils.isEmpty(email) && TextUtils.isEmpty(address)
@@ -304,15 +313,12 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
-            // getItem is called to instantiate the fragment for the given page.
-            // Return a ContactInfoFragment (defined as a static inner class below).
             return ContactInfoFragment.newInstance(position + 1);
         }
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 2;
+            return 3;
         }
     }
 }

@@ -22,6 +22,14 @@ public class PreferenceActivity extends AppCompatPreferenceActivity {
     public final static String PREF_COMPANY_PHONE = "phoneNumber_company";
     public final static String PREF_COMPANY_WEBSITE = "website_company";
 
+    public final static String PREF_OTHER_NAME = "name_other";
+    public final static String PREF_OTHER_EMAIL = "email_other";
+    public final static String PREF_OTHER_ADDRESS = "address_other";
+    public final static String PREF_OTHER_TITLE = "title_other";
+    public final static String PREF_OTHER_COMPANY = "company_other";
+    public final static String PREF_OTHER_PHONE = "phoneNumber_other";
+    public final static String PREF_OTHER_WEBSITE = "website_other";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

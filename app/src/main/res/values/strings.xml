@@ -2,6 +2,7 @@
     <string name="app_name">Share my number</string>
     <string name="tab_private">Private</string>
     <string name="tab_work">Work</string>
+    <string name="tab_other">Other</string>
     <string name="action_settings">Edit contact information</string>
     <string name="action_about">About</string>
     <string name="qr_code">QR code</string>
