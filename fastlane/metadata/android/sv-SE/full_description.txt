@@ -1,6 +1,6 @@
 Den här appen visar ett visitkort och en QR-kod. Andra kan lägga till ditt nummer till deras kontakt-app genom att skanna QR-koden.
 
-Det är möjligt att konfigurera två oberoende profiler: privat och företag.
+It's possible to configure three independent profiles: private, company and other. Feel free to change the names in the settings.
 
 Följande information kan delas:
 • Namn
