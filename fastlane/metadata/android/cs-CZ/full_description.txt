@@ -1,6 +1,6 @@
 Tato aplikace zobrazuje vizitku a QR kód. Ostatní lidé si mohou sejmutím QR kódu přidat Vaše číslo do svého seznamu kontaktů.
 
-Lze nakonfigurovat dvě nezávislé profily: soukromý a firemní.
+It's possible to configure three independent profiles: private, company and other. Feel free to change the names in the settings.
 
 Následující informace mohou být sdíleny:
 • Jméno
