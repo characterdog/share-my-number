@@ -4,7 +4,12 @@
     <string name="app_name">Partager mon numéro</string>
     <string name="tab_private">Privé</string>
     <string name="tab_work">Travail</string>
+    <string name="tab_other">Autre</string>
+    <string name="tab_1">Profil 1</string>
+    <string name="tab_2">Profil 2</string>
+    <string name="tab_3">Profil 3</string>
     <string name="action_settings">Modifier les coordonnées</string>
+    <string name="action_about">A propos</string>
     <string name="qr_code">QR code</string>
     <string name="no_name">Pas de nom fourni</string>
     <string name="open_settings">Cliquez pour ajouter vos coordonnées</string>
@@ -15,4 +20,7 @@
     <string name="company">Entreprise</string>
     <string name="title">Titre</string>
     <string name="website">Site Web</string>
+    <string name="profile_name">Nom du profil</string>
+    <string name="author">Auteur</string>
+    <string name="help_translating_this_app">Aidez à traduire cette application !</string>
 </resources>
