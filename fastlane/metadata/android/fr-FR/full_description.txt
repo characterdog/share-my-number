@@ -1,6 +1,6 @@
 Cette application affiche une carte de visite et un QR code. D'autres personnes peuvent ajouter votre numéro dans leur application de contacts en scannant le QR code.
 
-It's possible to configure three independent profiles: private, company and other. Feel free to change the names in the settings.
+Il est possible de configurer trois profils indépendants : privé, entreprise et autre. N'hésitez pas à modifier les noms dans les paramètres.
 
 Les informations suivantes peuvent être partagées :
 • Nom
