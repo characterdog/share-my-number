@@ -1,8 +1,8 @@
 Diese App zeigt eine Visitenkarte und einen QR-Code an. Andere Personen können Deine Nummer zu ihrer Kontakt-App hinzufügen, indem sie den QR-Code scannen.
 
-Es ist möglich drei verschiedene Profile zu konfigurieren: Privat, Geschäftlich und Sonstiges. Zögern Sie nicht, die Namen in den Einstellungen zu ändern.
+Es ist möglich drei verschiedene Profile zu konfigurieren: Privat, Geschäftlich und Sonstiges. The profile names are just suggestions. Feel free to change them in the settings.
 
-Die folgenden Informationen können geteilt werden:
+You can share the following information:
 • Name
 • Telefonnummer
 • E-Mail
@@ -10,3 +10,10 @@ Die folgenden Informationen können geteilt werden:
 • Firma
 • Titel
 • Webseite
+
+Why use this app:
+• Material Design
+• No ads or tracking
+• Fully open source: https://github.com/characterdog/bmi-calculator
+
+Help translating this app: https://crowdin.com/project/characterdog-bmi-calculator
