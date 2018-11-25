@@ -3,9 +3,9 @@
 
 This app displays a business card and a QR code. Other people can add your number to their contact app by scanning the QR code.
 
-It's possible to configure three independent profiles: private, company and other. Feel free to change the names in the settings.
+It's possible to configure three independent profiles: private, company and other. The profile names are just suggestions. Feel free to change them in the settings.
 
-The following information can be shared:
+You can share the following information:
 * Name
 * Phone number
 * E-mail

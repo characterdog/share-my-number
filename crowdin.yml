@@ -10,5 +10,5 @@ files:
         zh-CN: zh-rCN
         zh-TW: zh-rTW
         he: iw
-  - source: /fastlane/metadata/android/en-US/*_description.txt
+  - source: /fastlane/metadata/android/en-US/*.txt
     translation: /fastlane/metadata/android/%locale%/%original_file_name%
