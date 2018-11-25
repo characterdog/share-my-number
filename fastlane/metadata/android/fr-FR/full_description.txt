@@ -1,8 +1,8 @@
 Cette application affiche une carte de visite et un QR code. D'autres personnes peuvent ajouter votre numéro dans leur application de contacts en scannant le QR code.
 
-Il est possible de configurer trois profils indépendants : privé, entreprise et autre. N'hésitez pas à modifier les noms dans les paramètres.
+Il est possible de configurer trois profils indépendants : privé, entreprise et autre. The profile names are just suggestions. Feel free to change them in the settings.
 
-Les informations suivantes peuvent être partagées :
+You can share the following information:
 • Nom
 • Numéro de téléphone
 • Courriel
@@ -10,3 +10,10 @@ Les informations suivantes peuvent être partagées :
 • Entreprise
 • Titre
 • Site Web
+
+Why use this app:
+• Material Design
+• No ads or tracking
+• Fully open source: https://github.com/characterdog/bmi-calculator
+
+Help translating this app: https://crowdin.com/project/characterdog-bmi-calculator
