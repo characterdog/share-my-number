@@ -15,6 +15,7 @@ You can share the following information:
 * Website
 
 [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/app/com.github.characterdog.share_my_number)
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" alt="Get it on Google Play" height="80">](https://play.google.com/store/apps/details?id=com.github.characterdog.share_my_number)
 
 <img src="fastlane/metadata/android/en-US/images/icon.png" width="150px">
 
@@ -27,3 +28,6 @@ Translations are managed via [Crowdin](https://crowdin.com/project/share-my-numb
 ## License
 
 Published under [GNU General Public License v3.0 or later](https://spdx.org/licenses/GPL-3.0-or-later.html).
+
+
+Google Play and the Google Play logo are trademarks of Google LLC.
