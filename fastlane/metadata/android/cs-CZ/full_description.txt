@@ -1,8 +1,8 @@
 Tato aplikace zobrazuje vizitku a QR kód. Ostatní lidé si mohou sejmutím QR kódu přidat Vaše číslo do svého seznamu kontaktů.
 
-It's possible to configure three independent profiles: private, company and other. The profile names are just suggestions. Feel free to change them in the settings.
+It's possible to configure three independent profiles: private, company and other. Názvy profilů jsou pouze ukázkové. V nastavení si je můžete změnit.
 
-You can share the following information:
+Můžete sdílet následující informace:
 • Jméno
 • Telefonní číslo
 • E-mail
@@ -11,9 +11,9 @@ You can share the following information:
 • Titulek
 • Webová stránka
 
-Why use this app:
+Proč používat tuto aplikaci:
 • Material Design
-• No ads or tracking
-• Fully open source: https://github.com/characterdog/bmi-calculator
+• Žádné reklamy ani sledování
+• Plně otevřený zdrojový kód: https://github.com/characterdog/bmi-calculator
 
-Help translating this app: https://crowdin.com/project/characterdog-bmi-calculator
+Pomozte přeložit tuto aplikaci: https://crowdin.com/project/characterdog-bmi-calculator
