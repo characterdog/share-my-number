@@ -14,6 +14,6 @@ Du kannst die folgenden Informationen teilen:
 Warum diese App nutzen:
 • Material Design
 • Keine Werbung oder Tracking
-• Vollständig Open Source: https://github.com/characterdog/bmi-calculator
+• Fully open source: https://github.com/characterdog/share-my-number
 
-Hilf mit diese App zu übersetzen: https://crowdin.com/project/characterdog-bmi-calculator
+Help translating this app: https://crowdin.com/project/share-my-number
