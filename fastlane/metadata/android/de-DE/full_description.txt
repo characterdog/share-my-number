@@ -14,6 +14,6 @@ Du kannst die folgenden Informationen teilen:
 Warum diese App nutzen:
 • Material Design
 • Keine Werbung oder Tracking
-• Fully open source: https://github.com/characterdog/share-my-number
+• Vollständig Open Source: https://github.com/characterdog/share-my-number
 
-Help translating this app: https://crowdin.com/project/share-my-number
+Hilf mit diese App zu übersetzen: https://crowdin.com/project/share-my-number
