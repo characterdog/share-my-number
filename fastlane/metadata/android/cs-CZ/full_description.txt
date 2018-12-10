@@ -14,6 +14,6 @@ Můžete sdílet následující informace:
 Proč používat tuto aplikaci:
 • Material Design
 • Žádné reklamy ani sledování
-• Fully open source: https://github.com/characterdog/share-my-number
+• Plně otevřený zdrojový kód: https://github.com/characterdog/share-my-number
 
-Help translating this app: https://crowdin.com/project/share-my-number
+Pomozte přeložit tuto aplikaci: https://crowdin.com/project/share-my-number
