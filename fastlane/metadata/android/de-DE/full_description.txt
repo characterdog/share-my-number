@@ -1,8 +1,8 @@
 Diese App zeigt eine Visitenkarte und einen QR-Code an. Andere Personen können Deine Nummer zu ihrer Kontakt-App hinzufügen, indem sie den QR-Code scannen.
 
-Es ist möglich drei verschiedene Profile zu konfigurieren: Privat, Geschäftlich und Sonstiges. Zögern Sie nicht, die Namen in den Einstellungen zu ändern.
+Es ist möglich drei verschiedene Profile zu konfigurieren: Privat, Geschäftlich und Sonstiges. Die Profilnamen sind nur Vorschläge. Zögere nicht, diese in den Einstellungen zu ändern.
 
-Die folgenden Informationen können geteilt werden:
+Du kannst die folgenden Informationen teilen:
 • Name
 • Telefonnummer
 • E-Mail
@@ -10,3 +10,10 @@ Die folgenden Informationen können geteilt werden:
 • Firma
 • Titel
 • Webseite
+
+Warum diese App nutzen:
+• Material Design
+• Keine Werbung oder Tracking
+• Vollständig Open Source: https://github.com/characterdog/share-my-number
+
+Hilf mit diese App zu übersetzen: https://crowdin.com/project/share-my-number

@@ -1,8 +1,8 @@
 Den här appen visar ett visitkort och en QR-kod. Andra kan lägga till ditt nummer till deras kontakt-app genom att skanna QR-koden.
 
-It's possible to configure three independent profiles: private, company and other. Feel free to change the names in the settings.
+It's possible to configure three independent profiles: private, company and other. The profile names are just suggestions. Feel free to change them in the settings.
 
-Följande information kan delas:
+You can share the following information:
 • Namn
 • Telefonnummer
 • E-post
@@ -10,3 +10,10 @@ Följande information kan delas:
 • Företag
 • Titel
 • Webbplats
+
+Why use this app:
+• Material Design
+• No ads or tracking
+• Fully open source: https://github.com/characterdog/share-my-number
+
+Help translating this app: https://crowdin.com/project/share-my-number

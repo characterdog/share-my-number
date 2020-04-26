@@ -1,8 +1,8 @@
 Tato aplikace zobrazuje vizitku a QR kód. Ostatní lidé si mohou sejmutím QR kódu přidat Vaše číslo do svého seznamu kontaktů.
 
-It's possible to configure three independent profiles: private, company and other. Feel free to change the names in the settings.
+Lze nakonfigurovat tři nezávisle profily: soukromý, firemní a jiný. Názvy profilů jsou pouze ukázkové. V nastavení si je můžete změnit.
 
-Následující informace mohou být sdíleny:
+Můžete sdílet následující informace:
 • Jméno
 • Telefonní číslo
 • E-mail
@@ -10,3 +10,10 @@ Následující informace mohou být sdíleny:
 • Firma
 • Titulek
 • Webová stránka
+
+Proč používat tuto aplikaci:
+• Material Design
+• Žádné reklamy ani sledování
+• Plně otevřený zdrojový kód: https://github.com/characterdog/share-my-number
+
+Pomozte přeložit tuto aplikaci: https://crowdin.com/project/share-my-number
