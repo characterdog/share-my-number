@@ -1,19 +1,19 @@
-This app displays a business card and a QR code. Other people can add your number to their contact app by scanning the QR code.
+Это приложение отображает визитную карточку и QR-код. Передавайте контактную информацию с помощью сканирования QR-кода.
 
-It's possible to configure three independent profiles: private, company and other. The profile names are just suggestions. Feel free to change them in the settings.
+Доступны три независимых профиля: личный, рабочий и другие. Имена профилей лишь примеры. Их можно изменить в настройках.
 
-You can share the following information:
-• Name
-• Phone number
-• E-mail
-• Address
-• Company
-• Title
-• Website
+Можно поделиться следующими данными:
+Имя
+• Контактный телефон
+• Электронная почта
+• Адрес
+• Организация
+• Должность
+• Веб-сайт
 
-Why use this app:
-• Material Design
-• No ads or tracking
-• Fully open source: https://github.com/characterdog/share-my-number
+Преимущества:
+• Материальный дизайн
+• Без рекламы или отслеживания
+• Полностью открытый исходный код: https://github.com/characterdog/share-my-number
 
-Help translating this app: https://crowdin.com/project/share-my-number
+Помогите с переводом приложения: https://crowdin.com/project/share-my-number
