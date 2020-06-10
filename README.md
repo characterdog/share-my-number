@@ -1,3 +1,5 @@
+# This project currently receives little to no maintenance by myself. Feel free to fork it!
+
 # Share my number
 <a href="https://travis-ci.com/characterdog/share-my-number/"><img src="https://api.travis-ci.com/characterdog/share-my-number.svg?branch=master"></a> <a title="Crowdin" target="_blank" href="https://crowdin.com/project/share-my-number"><img src="https://d322cqt584bo4o.cloudfront.net/share-my-number/localized.svg"></a>
 
