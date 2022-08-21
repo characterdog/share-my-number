@@ -302,7 +302,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d(TAG, "Generate QR code");
                 return QRCode
                         .from(setQrCodeTaskBundles[0].getVCard())
-                        .withColor(0xFF000000, 0x00000000)
+                        .withColor(0xFF000000, 0xFFEEEEEE)
                         .withSize(setQrCodeTaskBundles[0].getQrSize(), setQrCodeTaskBundles[0].getQrSize())
                         .withHint(EncodeHintType.CHARACTER_SET, "UTF-8")
                         .bitmap();

@@ -29,16 +29,16 @@
     <string name="license">Licence</string>
     <string name="privacy_policy">Politique de confidentialité</string>
     <string name="privacy_policy_content"><![CDATA[    1. Si vous installez cette application à partir du Google Play, Google collectera des informations à propos de votre appareil
-    et me les monterea dans la console Google Play. A la survenue d'un crash, certaines informations seront
-    envoyées à Google. Je n'ai aucun contrôle là-dessus. Veuillez-vous référer à leur politique de confidentialité pour plus de détails.\n
-    2. Si vous installez cette application à partir de F-Droid, je ne peux voir aucune donnée d'utilisation. Veuillez-vous référer à leur politique de confidentialité pour plus de détails.\n
-    3. Si utilisation d'un appareil avec Sauvegarde Automatique par Google, Google enverra toutes les informations de contact à Google Drive : https://developer.android.com/guide/topics/data/autobackup\n
-    4. Vous pouvez m'envoyer un courriel à characterdog.apps@gmail.com. Dans ce cas, moi-même et Google connaîtrons votre 
+    et me les monterea dans la console Google Play. A la survenue d\'un crash, certaines informations seront
+    envoyées à Google. Je n\'ai aucun contrôle là-dessus. Veuillez-vous référer à leur politique de confidentialité pour plus de détails.\n
+    2. Si vous installez cette application à partir de F-Droid, je ne peux voir aucune donnée d\'utilisation. Veuillez-vous référer à leur politique de confidentialité pour plus de détails.\n
+    3. Si utilisation d\'un appareil avec Sauvegarde Automatique par Google, Google enverra toutes les informations de contact à Google Drive : https://developer.android.com/guide/topics/data/autobackup\n
+    4. Vous pouvez m\'envoyer un courriel à characterdog.apps@gmail.com. Dans ce cas, moi-même et Google connaîtrons votre
     adresse de courriel et tout ce que vous écrivez dans votre courriel. Je supprimerai votre courriel une fois que votre 
     problème aura été résolu ou que votre question aura reçu une réponse. Google peut avoir une sauvegarde du courriel et ne pas la
     supprimer quand je le fais.\n
-    5. Si vous cliquez sur un lien dans l'écran A propos, l'opérateur des sites webs peut collecter des informations à propos
+    5. Si vous cliquez sur un lien dans l\'écran A propos, l\'opérateur des sites webs peut collecter des informations à propos
     de votre appareil, mais pas vos informations de contact.\n
-    6. Je ne partagerai les informations avec personne d'autre.
+    6. Je ne partagerai les informations avec personne d\'autre.
     ]]></string>
 </resources>
