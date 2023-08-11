@@ -23,10 +23,6 @@ You can share the following information:
 
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.png" width="400px"> <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.png" width="400px"> <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.png" width="400px">
 
-## Translations
-
-Translations are managed via [Crowdin](https://crowdin.com/project/share-my-number). Translations need to be approved before I can merge them. Please do not hesitate to contact me via Crowdin or GitHub issue if you want to become proofreader or if you want to request a language.
-
 ## License
 
 Published under [GNU General Public License v3.0 or later](https://spdx.org/licenses/GPL-3.0-or-later.html).
